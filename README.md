@@ -1,5 +1,4 @@
 # validate-links-from-md
-# API ToDo
 ### Necessário:
     - node (v18.10.0)
 ### Execução:
