@@ -12,12 +12,10 @@ async function handle(path) {
 
 async function getLinks(path) {
     try {
-        let links = await getLinksFromMd(path);
-        return links;
+        return await getLinksFromMd(path);
     } catch (error) {
         if (error.code === 'ENOENT') {
             console.error('file or directory not found.');
-            return;
         }
     }
 }
